@@ -1,0 +1,15 @@
+{
+  "name": "mock",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "mock": "supervisor  -w mock ./mocks/https.js"
+  },
+  "author": "wenso@qq.com",
+  "license": "ISC",
+  "devDependencies": {
+    "mockjs": "^1.0.1-beta3",
+    "supervisor": "^0.12.0"
+  }
+}
